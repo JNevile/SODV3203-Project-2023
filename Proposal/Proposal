@@ -1,36 +1,35 @@
 Project Proposal SODV3203 
-
 Group 12 – Candace Arriola and Janine Neville 
-
 Due Date: March 5, 2023 
 
 Github link: 
 https://github.com/JNevile/SODV3203-Project-2023/tree/main/Proposal 
  
-
 Description of App: 
-- Broad topic for app: Free food sharing app that assists food seekers and food donors. The app 
+- Broad topic for app: Free foodbank finding app that assists food seekers and food donors. The app 
                        finds food (free and low cost) and resources available to residents
                        in the Calgary, Alberta area. The app also provides searchable 
                        information regarding foodbank locations accepting donations to those 
-                       individuals and businesses who have food to donate   
+                       individuals and businesses who have food to donate.   
 - Name for app:        FoodShare
 
 Features of App: 
 - Data that is persisted locally:  
-
--  
-
-- Data that is linked: login with facebook? 
-
- 
+                       - Food bank locations, operating hours, foodbank contact information, types of foods offered 
+                       (halal, gluten free, lactose free), and types of food donations accepted.
+                       
+- Data that is linked: Money saving food resources, links and recipes available through: 
+                       Fresh Routes www.freshroutes.ca, Good Food Box https://www.ckpcalgary.ca/goodfoodbox, 
+                       and Love Food Hate Waste https://lovefoodhatewaste.ca/, all are sites that are linked with buttons.
+                       
+- Third party API: We will have a third party API for Google Maps allowing users to see the Google Map location of the foodbanks. 
 
 Screens of App: 
 - Login screen  
 - Home page  
 - Search page 
-- Money saving food resources, links and recipes  
+- Results from search page
  
 Wireframe: 
 *Wireframe is attached as a jpg and is also available to view at: 
-Miro: https://miro.com/app/board/uXjVPh5lues=/  
+Miro: https://miro.com/app/board/uXjVPh5lues=/?share_link_id=8668615053
