@@ -4,28 +4,19 @@ Group 12 – Candace Arriola and Janine Neville
 
 Due Date: March 5, 2023 
 
- 
-
 Github link: 
 https://github.com/JNevile/SODV3203-Project-2023/tree/main/Proposal 
  
 
 Description of App: 
-
-- Broad topic for app: Food finding app that finds free food that is available to residents in the Calgary, Alberta area 
-
-- Name for app:  
-
-Hunger Free YYCFood Finder Food ShareFree Food FinderNo More Hunger YYC 
-
- 
-
- 
-
- 
+- Broad topic for app: Free food sharing app that assists food seekers and food donors. The app 
+                       finds food (free and low cost) and resources available to residents
+                       in the Calgary, Alberta area. The app also provides searchable 
+                       information regarding foodbank locations accepting donations to those 
+                       individuals and businesses who have food to donate   
+- Name for app:        FoodShare
 
 Features of App: 
-
 - Data that is persisted locally:  
 
 -  
@@ -35,18 +26,11 @@ Features of App:
  
 
 Screens of App: 
-
-Login screen  
-
-Home page  
-
-Search page 
-
-Money saving food tips  
-
+- Login screen  
+- Home page  
+- Search page 
+- Money saving food resources, links and recipes  
  
 Wireframe: 
-
 *Wireframe is attached as a jpg and is also available to view at: 
-
 Miro: https://miro.com/app/board/uXjVPh5lues=/  
