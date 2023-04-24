@@ -1,0 +1,131 @@
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#035506">
+
+    <TextView
+        android:id="@+id/freshroutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Fresh Routes"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/searchbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/welcome2"
+        android:layout_width="281dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="20dp"
+
+        android:fontFamily="sans-serif-condensed"
+        android:lineSpacingExtra="8sp"
+        android:text="Here are Some Sites we Recommend
+To Start your Search and
+to give you some Ideas..."
+        android:textAlignment="center"
+        android:textColor="#EAE088"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="79dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="640dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brand"
+        app:layout_constraintVertical_bias="0.031"
+        app:srcCompat="@drawable/handshake_icon_svg" />
+
+    <TextView
+        android:id="@+id/brand2"
+        android:layout_width="109dp"
+        android:layout_height="32dp"
+        android:fontFamily="sans-serif-black"
+        android:text="FOOD SHARE"
+        android:textColor="#99F69C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.99"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="285dp"
+        android:layout_height="204dp"
+        android:layout_marginTop="96dp"
+
+        android:fontFamily="sans-serif-condensed"
+        android:lineSpacingExtra="8sp"
+        android:text="Welcome to Food Share!
+Your one Stop Site to the BEST and
+EASIEST Food Bank places NEAR you!"
+        android:textAlignment="center"
+        android:textColor="#EAE088"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/goodfoodbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="8dp"
+        android:text="Good Food Box"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/freshroutes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome2" />
+
+    <Button
+        android:id="@+id/searchbtn"
+        android:layout_width="104dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="15dp"
+        android:text="Search"
+        app:layout_constraintBottom_toTopOf="@+id/logoutbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="104dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="664dp"
+        android:text="Logout"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
